@@ -1,0 +1,21 @@
+.search {
+    -webkit-appearance: none;
+    border: 5px solid #ff8906;
+    border-radius: 100px;
+    outline: none;
+    padding: 10px;
+    width: 300px;
+    line-height: 30px;
+    margin: 30px 0;
+    color: #ff8906;
+    font-size: 1.2rem;
+    font-family: 'Lato';
+    font-weight: bold;
+  }
+
+  ::placeholder { 
+    color: #a7a9be;
+    opacity: 1;
+    font-family: 'Poppins';
+    font-size: 1rem;
+  }

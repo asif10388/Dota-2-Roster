@@ -1,0 +1,35 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #16161a;
+    border: 5px solid white;
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer;
+    font-family: 'Lora';
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: all 0.35s;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05);
+    border: 5px solid #ff8906;
+  }
+
+  .card-container figure{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid #ff8906;
+  }
+
+  .card-container figure img{
+  width: auto;
+  height: 100%;
+  margin-left: -90px;
+  }
